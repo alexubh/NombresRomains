@@ -1,6 +1,6 @@
 import unittest
 
-from src.ConvertisseurNombresRomains import ConvertisseurNombresRomains
+from ConvertisseurNombresRomains import ConvertisseurNombresRomains
 
 class NombresRomainsTest(unittest.TestCase):
     def test_un(self):
@@ -32,5 +32,3 @@ class NombresRomainsTest(unittest.TestCase):
 
         # ALORS on obtient "III"
         self.assertEqual("III", nombre_romain)
-
-        test

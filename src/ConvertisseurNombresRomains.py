@@ -3,5 +3,4 @@ class ConvertisseurNombresRomains:
     def convertir(cls, nombre_arabe):
         if(nombre_arabe == 1): return "I"
         if(nombre_arabe == 2): return "II"
-        return "III"
-    test
+        if(nombre_arabe == 3): return "III"
