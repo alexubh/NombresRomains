@@ -12,7 +12,8 @@ set email=alexandre.ubach@ecoles-epsi.net
 set username=alexubh
 
 rem Récupère le premier paramètre et le stocke dans une variable
-set commitNumber=%1
+set commitNumber=d646daa9303c0d09d62b11dd5635642623d95be4
+rem set commitNumber=%1
 
 rem Vérifier que la variable commitNumber n'est pas vide
 if not defined commitNumber (
