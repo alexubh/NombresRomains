@@ -39,7 +39,7 @@ if "%newrev_type%,%refname%"=="commit,refs/heads/main" (
     rem Ajoutez vos vérifications spécifiques ici
 
     rem Exécutez votre script de workflow avec le numéro de commit
-    call C:\Code\integration_continue\Scripts\workflow_perso.cmd %newrev%
+    call C:\Code\Python\NombresRomains\Scripts\workflow.cmd %newrev%
 ) else (
     echo *** Type de mise à jour inconnu pour %refname% avec newrev_type=%newrev_type% >&2
     exit /b 1
