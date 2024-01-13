@@ -1,7 +1,7 @@
-import unittest
-from ConvertisseurNombresRomains import ConvertisseurNombresRomains
 import sys
 sys.path.append(r'C:\Code\Python\NombresRomains\src')
+import unittest
+from ConvertisseurNombresRomains import ConvertisseurNombresRomains
 
 class NombresRomainsTest(unittest.TestCase):
     def test_un(self):
@@ -43,3 +43,5 @@ class NombresRomainsTest(unittest.TestCase):
 
         # ALORS on obtient "IV"
         self.assertEqual("IV", nombre_romain)
+
+# Modification inutile
