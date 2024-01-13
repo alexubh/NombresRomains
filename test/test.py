@@ -1,6 +1,7 @@
 import unittest
-
 from ConvertisseurNombresRomains import ConvertisseurNombresRomains
+import sys
+sys.path.append(r'C:\Code\Python\NombresRomains\src')
 
 class NombresRomainsTest(unittest.TestCase):
     def test_un(self):
