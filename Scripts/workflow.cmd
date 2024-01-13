@@ -11,18 +11,17 @@ set devBranch=dev
 set email=alexandre.ubach@ecoles-epsi.net
 set username=alexubh
 
+rem Set le n°commit manuellement
+rem set commitNumber=419ac15a8af3aedc05c2b090abf44096ca9737d0
+
 rem Récupère le premier paramètre et le stocke dans une variable
-set commitNumber=98ffd2571d8168e31805c18d297156be3d0841b2
-rem set commitNumber=%1
+set commitNumber=%1
 
 rem Vérifier que la variable commitNumber n'est pas vide
 if not defined commitNumber (
     echo Erreur : Aucun numéro de commit n'a été fourni.
     exit /b 1
 )
-
-rem Set le n°commit manuellement
-rem set commitNumber=419ac15a8af3aedc05c2b090abf44096ca9737d0
 
 rem Cré un répertoire temporaire unique
 set tmpFolderPath=%tmpFolderBase%\tmp_%commitNumber%
